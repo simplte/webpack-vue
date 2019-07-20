@@ -1,0 +1,106 @@
+html{
+    background: #f4f4f4;
+}
+.custmer{
+    padding: 10px;
+}
+.custmerList{
+    margin-top: 10px;
+    background: #fff;
+    border-radius: 8px;
+    position: relative;
+    
+}
+.ckNma{
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 20px; 
+    font-weight: bold;
+    padding: 15px;
+}
+.wsName{
+    padding-bottom: 0;
+}
+.ckInfoBox{
+    padding: 10px 15px 15px 15px;
+    
+}
+.info+.info{
+    margin-top: 10px;
+}
+.info{
+    
+}
+.info_title{
+    width: 87px;
+    font-size: 14px;
+    color: #666666;
+}
+.wsInfo{
+    margin-top: 5px;
+    width: 80%;
+    
+}
+.wsTitle{
+    width: 78px;
+    font-size: 12px;
+    color: #999999;
+    line-height: 17px;
+}
+.wsContent{
+    font-size: 12px;
+    color: #999999;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+.wsTips{
+    font-size: 12px;
+    color: #FF5346;
+    line-height: 17px;
+}
+.ckBox{
+    padding: 15px;
+    border-top:1px solid #f4f4f4;
+}
+.arrow{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    font-size: 12px;
+    color: #999;
+}
+.confirm {
+    background-image: linear-gradient(-269deg, #43DEA0 2%, #23BEAE 98%);
+    height: 48px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 48px;
+    font-size: 16px;
+    position: fixed;
+    bottom: 0;
+}
+.arrow::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 3px;
+    width: 7px;
+    height: 7px;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    -webkit-transform: translateY(-50%) rotate(45deg);
+    transform: translateY(-50%) rotate(45deg);
+}
+.backUserAdd{
+    background-image: linear-gradient(-269deg, #43DEA0 2%, #23BEAE 98%);
+    height: 48px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 48px;
+    font-size: 16px;
+    position: fixed;
+    bottom: 0;
+}
